@@ -1,3 +1,4 @@
+package org.example;
 public class Viaje {
 	private String horaSalida;
 	private String horaLlegada;
