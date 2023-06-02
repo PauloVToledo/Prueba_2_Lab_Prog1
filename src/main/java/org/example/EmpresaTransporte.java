@@ -2,7 +2,8 @@ package org.example;
 import java.util.ArrayList;
 import java.util.List;
 
-//solo falta especificar las funcionalidad y darle código a cada una.
+//Solo falta especificar las funcionalidades y darle código a cada una.
+
 public class EmpresaTransporte {
 	private String rut;
 	private String id;
@@ -38,10 +39,21 @@ public class EmpresaTransporte {
 	}
 
 	public Bus agregarBus(String patente, String marca, String modelo) {
+		Bus bus1 = new Bus(patente, marca, modelo);
+		buses.add(bus1);
+		Bus bus2 = new Bus(patente, marca, modelo);
+		buses.add(bus2);
+		Bus bus3 = new Bus(patente, marca, modelo);
+		buses.add(bus3);
+
 		throw new UnsupportedOperationException();
 	}
 
 	public Conductor agregarConductor(String nombre, String apellido, int telefono, String tipoLicencia) {
+
+		Conductor conductor1 = new Conductor(nombre, apellido, telefono, tipoLicencia);
+
+
 		throw new UnsupportedOperationException();
 	}
 
@@ -56,4 +68,6 @@ public class EmpresaTransporte {
 	public List<Bus> getBuses() {
 		throw new UnsupportedOperationException();
 	}
+
+
 }
