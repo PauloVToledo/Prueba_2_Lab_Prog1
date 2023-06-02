@@ -33,4 +33,24 @@ public class EmpresaTransporte {
 	public EmpresaTransporte(String rut, String id, String redesSociales) {
 		throw new UnsupportedOperationException();
 	}
+
+	public Bus agregarBus(String patente, String marca, String modelo) {
+		throw new UnsupportedOperationException();
+	}
+
+	public Conductor agregarConductor(String nombre, String apellido, int telefono, String tipoLicencia) {
+		throw new UnsupportedOperationException();
+	}
+
+	public Bus asociarViajeBus(String horaSalida, String horaLlegada, Ciudad ciudad1, Ciudad ciudad2) {
+		throw new UnsupportedOperationException();
+	}
+
+	public void mostrarBusesViajando(ArrayList<Bus> buses) {
+		throw new UnsupportedOperationException();
+	}
+
+	public List<Bus> getBuses() {
+		throw new UnsupportedOperationException();
+	}
 }
