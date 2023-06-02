@@ -2,6 +2,7 @@ package org.example;
 import java.util.ArrayList;
 import java.util.List;
 
+//solo falta especificar las funcionalidad y darle código a cada una.
 public class EmpresaTransporte {
 	private String rut;
 	private String id;

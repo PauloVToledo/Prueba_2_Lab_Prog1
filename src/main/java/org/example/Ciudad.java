@@ -11,6 +11,8 @@ public class Ciudad {
 	}
 
 	public Ciudad(String nombre) {
+
+		this.nombre=nombre;
 		throw new UnsupportedOperationException();
 	}
 }

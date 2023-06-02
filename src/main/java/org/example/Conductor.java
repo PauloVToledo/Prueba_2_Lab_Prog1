@@ -39,6 +39,10 @@ public class Conductor {
 	}
 
 	public Conductor(String nombre, String apellido, int telefono, String tipoLicencia) {
+		this.nombre=nombre;
+		this.apellido=apellido;
+		this.telefono=telefono;
+		this.tipoLicencia=tipoLicencia;
 		throw new UnsupportedOperationException();
 	}
 }

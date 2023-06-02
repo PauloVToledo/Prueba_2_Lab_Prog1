@@ -30,6 +30,10 @@ public class Viaje {
 	}
 
 	public Viaje(Ciudad ciudad1, Ciudad ciudad2, String horaSalida, String horaLlegada) {
+		this.horaLlegada=horaLlegada;
+		this.horaSalida=horaSalida;
+		this.ciudadDestino=ciudad2;
+		this.ciudadOrigen=ciudad1;
 		throw new UnsupportedOperationException();
 	}
 }

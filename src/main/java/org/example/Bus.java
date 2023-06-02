@@ -33,6 +33,11 @@ public class Bus {
 	}
 
 	public Bus(String patente, String marca, String modelo) {
+
+		this.patente=patente;
+		this.marca=marca;
+		this.modelo=modelo;
+
 		throw new UnsupportedOperationException();
 	}
 }
